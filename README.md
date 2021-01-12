@@ -11,7 +11,7 @@ I created and deployed an LSTM deep learning model in a real-time dashboard that
 ## Solo silver medal (2%) in a kaggle competition
 I was ranked the 39th out of 3345 competitor (2%) that won me a silver medal. The competition is a featured competition targeting the knowledge tracing problem, i.e. estimating what the user would answer right or wrong. For my solution, I used an ensemble of an LGBM and SAINT transformer model, which you can find their respective sources, [here](https://github.com/maroxtn/LGBM-riiid-kaggle) and [here](https://github.com/maroxtn/SAINT-Transformer-riiid-kaggle).
 
-![rank](image/rank.png)
+![rank](image/rank.PNG)
 ## Implementation of the RNN encoder decoder for Translation
 I implemented the encoder-decoder translation with attention as decribe by [Bahdanau](https://arxiv.org/abs/1409.0473). I translation was English - French and French - English.
 ## SAINT Transformer guide notebook
