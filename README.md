@@ -14,9 +14,11 @@ I was ranked the 39th out of 3345 competitor (2%) that won me a silver medal. Th
 ![rank](image/rank.PNG)
 ## **Attention types comparison**
 The goal behind this project was to compare between [RNN using Bahdanau attention](https://arxiv.org/abs/1409.0473) translation, and Transformer translation, and compared the attention weights, and see the difference in the translation quality. Both models had only one layer, similar in network size, same training data, same number of epochs. The code is available [here](https://github.com/maroxtn/Transformer-vs-bahdanau-attention). The code is fully reproducible.
-
+&nbsp;
 ![rank](image/1.gif)
-The difference between transformer translation (first) attention weights, and Bahdanau.
+
+
+The difference between transformer translation (first) attention weights, and Bahdanau attention translation (second).
 ## **SAINT Transformer guide notebook**
 After the Riiid competition ended, I wrote a notebook extensively explaining my implementation of the model and how I performed inference. You can find it [here](https://www.kaggle.com/abdessalemboukil/saint-training-inference-guide-39th-solution/comments).
 ## **Scraped and trained a text generation model in Tunisian Arabic**
