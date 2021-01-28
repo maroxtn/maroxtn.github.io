@@ -12,8 +12,11 @@ I created and deployed an LSTM deep learning model in a real-time dashboard that
 I was ranked the 39th out of 3345 competitor (2%) that won me a silver medal. The competition is a featured competition targeting the knowledge tracing problem, i.e. estimating what the user would answer right or wrong. For my solution, I used an ensemble of an LGBM and SAINT transformer model, which you can find their respective sources, [here](https://github.com/maroxtn/LGBM-riiid-kaggle) and [here](https://github.com/maroxtn/SAINT-Transformer-riiid-kaggle).
 
 ![rank](image/rank.PNG)
-## **Implementation of the RNN encoder decoder for Translation**
-I implemented the encoder-decoder translation with attention as decribe by [Bahdanau](https://arxiv.org/abs/1409.0473). I translation was English - French and French - English.
+## **Attention types comparison**
+The goal behind this project was to compare between [RNN using Bahdanau attention](https://arxiv.org/abs/1409.0473) translation, and Transformer translation, and compared the attention weights, and see the difference in the translation quality. Both models had only one layer, similar in network size, same training data, same number of epochs. The code is available [here](https://github.com/maroxtn/Transformer-vs-bahdanau-attention). The code is fully reproducible.
+
+![rank](image/1.gif)
+The difference between transformer translation (first) attention weights, and Bahdanau.
 ## **SAINT Transformer guide notebook**
 After the Riiid competition ended, I wrote a notebook extensively explaining my implementation of the model and how I performed inference. You can find it [here](https://www.kaggle.com/abdessalemboukil/saint-training-inference-guide-39th-solution/comments).
 ## **Scraped and trained a text generation model in Tunisian Arabic**
