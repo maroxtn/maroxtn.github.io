@@ -15,6 +15,7 @@ I was ranked the 39th out of 3345 competitor (2%) that won me a silver medal. Th
 ## **Attention types comparison**
 The goal behind this project was to compare between [RNN using Bahdanau attention](https://arxiv.org/abs/1409.0473) translation, and Transformer translation, and compared the attention weights, and see the difference in the translation quality. Both models had only one layer, similar in network size, same training data, same number of epochs. The code is available [here](https://github.com/maroxtn/Transformer-vs-bahdanau-attention). The code is fully reproducible.
 &nbsp;
+
 ![rank](image/1.gif)
 
 
