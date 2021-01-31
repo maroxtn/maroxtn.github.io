@@ -1,7 +1,7 @@
 ## maroxtn.github.io
 
 # Abdessalem Boukil Data Science Portfolio
-This is the list of work that I have done in th field of data science . It includes competitions I participated in, personal projects, guides and notebooks. This list will updated constantly. Most of my work is relevant but not unique to sequential data. I am interested in NLP a lot.
+This is a list of work that I have done in the field of data science and deep learning. It includes competitions that I've participated in, personal projects, guides and notebooks. This list will updated constantly.
 
 ## **Predictive sales dashboard**
 I created and deployed an LSTM deep learning model in a real-time dashboard that computes sales prediction for a list of +160 products. This was during the course of an internship as a data scientist. I used Tensorflow to train the model, and Flask to deploy it. All the code is available [here](https://github.com/maroxtn/forecast-dashboard).
