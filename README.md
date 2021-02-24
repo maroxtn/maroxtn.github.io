@@ -24,3 +24,10 @@ The difference between transformer translation (first) attention weights, and Ba
 After the Riiid competition ended, I wrote a notebook that extensively explains my implementation of the model, and my way of performing inference. You can find it [here](https://www.kaggle.com/abdessalemboukil/saint-training-inference-guide-39th-solution/comments).
 ## **Scraped and trained a text generation model in Tunisian Arabic**
 I scraped tweets, Facebook comments and articles in Tunisian Arabic, that I used to train a text generation LSTM cell, which outputed interesting results. 
+
+## **Trump Speech Generator**
+I used the huggingface Transformers library to immitate Trump's style of speech. To do that, I fine tuned GPT2 model on the bulk of 30 Trump's rally speeches. I used different text generation techniques to generate the text. This project was a good opportunity to test the huggingface library, and to experience the ease of their abstraction.
+
+Source code: https://github.com/maroxtn/trump_speech_generator
+
+Colab: https://colab.research.google.com/drive/12hw55uGm80ikiq9wLtZ2GsWpRnGUCdXv?usp=sharing
