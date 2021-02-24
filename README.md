@@ -6,10 +6,10 @@ This is a list of work that I have done in the field of data science and deep le
 ## **Predictive sales dashboard**
 I created and deployed an LSTM deep learning model in a real-time dashboard that computes sales prediction for a list of +160 products. This was during the course of an internship as a data scientist. I used Tensorflow to train the model, and Flask to deploy it. All the code is available [here](https://github.com/maroxtn/forecast-dashboard).
 
-![dashboard](image/dashboard.png)
-
 In order to get the utmost accuracy, I used Scikit Optimize to optimize the hyperparameters of the model. It uses Bayesian meta-Optimization, which is not a gradient based optimization. Training this meta-optimizer took around a day and a half. It approximated the best possible hyperparameters for my model. This took place as my graduation project in order for me to obtain my computer science diploma.
 
+
+![dashboard](image/dashboard.png)
 
 ## **Solo silver medal (2%) in a kaggle competition**
 I was ranked the 39th out of 3345 competitor (2%) that won me a silver medal. The competition is a featured competition targeting the knowledge tracing problem, i.e. estimating if a student would answer a question right or wrong based on their history. For my solution, I used an ensemble of an LGBM and SAINT transformer model, which you can find their respective sources, [here](https://github.com/maroxtn/LGBM-riiid-kaggle) and [here](https://github.com/maroxtn/SAINT-Transformer-riiid-kaggle).
@@ -54,4 +54,6 @@ This is a simple project I have done. It's an exploratory data analysis of a gym
 
 I also visualized data using matplotlib library and seaborn. The dataset is a small dataset (2730, 1806 recorded class + 924 live class attendance). 
 
-Take a look at the notebook [here](https://nbviewer.jupyter.org/github/maroxtn/gym-schedule-eda/blob/main/EDA%20notebook.ipynb) and the github repo here: [https://git.io/JtdVZ](https://git.io/JtdVZ).
+*Take a look at the notebook* [https://nbviewer.jupyter.org/github/maroxtn/gym-schedule-eda/blob/main/EDA%20notebook.ipynb](https://nbviewer.jupyter.org/github/maroxtn/gym-schedule-eda/blob/main/EDA%20notebook.ipynb) 
+
+*The github repo here*: [https://git.io/JtdVZ](https://git.io/JtdVZ).
