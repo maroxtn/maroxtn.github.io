@@ -28,6 +28,10 @@ I scraped tweets, Facebook comments and articles in Tunisian Arabic, that I used
 ## **Trump Speech Generator**
 I used the huggingface Transformers library to immitate Trump's style of speech. To do that, I fine tuned GPT2 model on the bulk of 30 Trump's rally speeches. I used different text generation techniques to generate the text. This project was a good opportunity to test the huggingface library, and to experience the ease of their abstraction.
 
-Source code: https://github.com/maroxtn/trump_speech_generator
+**Seed**: Obama is
 
-Colab: https://colab.research.google.com/drive/12hw55uGm80ikiq9wLtZ2GsWpRnGUCdXv?usp=sharing
+**Generated text**: Obama is the craziest person I've ever met." I said, "You mean like him when he's on this show? I haven't seen him in over 25 years because of all the crazy stuff. He's crazy." But we have them all because he has such a big following. If I didn't have that massive following for a candidate, or for other things too, I would have not done so well. When I did, it was all done for political. And then I think we...
+
+*Source code*: [https://colab.research.google.com/drive/12hw55uGm80ikiq9wLtZ2GsWpRnGUCdXv?usp=sharing](https://github.com/maroxtn/trump_speech_generator)
+
+*Try it yourself in Colab*: [https://colab.research.google.com/drive/12hw55uGm80ikiq9wLtZ2GsWpRnGUCdXv?usp=sharing](https://colab.research.google.com/drive/12hw55uGm80ikiq9wLtZ2GsWpRnGUCdXv?usp=sharing)
