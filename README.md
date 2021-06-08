@@ -19,9 +19,9 @@ One problem with Arabizi that it has no definite spellings of words, spelling of
 
 I collected this dataset by scraping 30k Arabizi facebook comments, extracting the most common words and then annotating them manually with their Arabic counter part. 
 
-The dataset and the code is freely available on the github repo [https://github.com/maroxtn/tun-sentiment](https://github.com/maroxtn/tun-sentiment). I invite you to read the code, it is fully modular and carefully documented.
+The dataset and the code is freely available on the *github repo* [https://github.com/maroxtn/tun-sentiment](https://github.com/maroxtn/tun-sentiment). I invite you to read the code, it is fully modular and carefully documented.
 
-Here also I create a colab notebook in which you can test the sentiment analysis model with your own personal Tunisian Arabizi sentences (unless you are not Tunisian of course): [https://colab.research.google.com/drive/1kTdHap1RmGdyTnDqAyfExJEguzMuCXh9](https://colab.research.google.com/drive/1kTdHap1RmGdyTnDqAyfExJEguzMuCXh9).
+Here also I created a *colab notebook* in which you can test the sentiment analysis model with your own personal Tunisian Arabizi sentences (unless you are not Tunisian of course): [https://colab.research.google.com/drive/1kTdHap1RmGdyTnDqAyfExJEguzMuCXh9](https://colab.research.google.com/drive/1kTdHap1RmGdyTnDqAyfExJEguzMuCXh9).
 
 ## **Predictive sales dashboard**
 I created and deployed an LSTM deep learning model in a real-time dashboard that computes sales prediction for a list of +160 products. This was during the course of an internship as a data scientist. I used Tensorflow to train the model, and Flask to deploy it. All the code is available [here](https://github.com/maroxtn/forecast-dashboard).
@@ -60,7 +60,7 @@ I used the huggingface Transformers library to immitate Trump's style of speech.
 
 **Generated text**: Obama is the craziest person I've ever met." I said, "You mean like him when he's on this show? I haven't seen him in over 25 years because of all the crazy stuff. He's crazy." But we have them all because he has such a big following. If I didn't have that massive following for a candidate, or for other things too, I would have not done so well. When I did, it was all done for political. And then I think we...
 
-*Source code*: [https://colab.research.google.com/drive/12hw55uGm80ikiq9wLtZ2GsWpRnGUCdXv?usp=sharing](https://github.com/maroxtn/trump_speech_generator)
+*Source code*: [https://github.com/maroxtn/trump_speech_generator](https://github.com/maroxtn/trump_speech_generator)
 
 *Try it yourself in Colab*: [https://colab.research.google.com/drive/12hw55uGm80ikiq9wLtZ2GsWpRnGUCdXv?usp=sharing](https://colab.research.google.com/drive/12hw55uGm80ikiq9wLtZ2GsWpRnGUCdXv?usp=sharing)
 
