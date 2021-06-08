@@ -15,13 +15,13 @@ Ranked the 1st in Zindi Tunisian Arabizi sentiment analysis competition from the
 - "قداه الوقت" becomes: <i>"9adeh lwa9t"</i> ?
 - "خليه يتعدا" becomes: <i>"5alih yet3adda"</i> ? ...
 
-One problem with Arabizi that it has no definite spellings of words, spelling of the same word can vary from a person to the other, and many words can be ambiguous, depending on their context. For that reason, I manually annotated a dataset containing 17k transliterated word (there are duplicate words with different spellings), and used it to train a transformer to transliterate the competition dataset to Arabic. I later used that transliterated text to finetune a huggingface Arabic dialect bert model (`moha/arabert_c19`: https://arxiv.org/abs/2105.03143).
+One problem with Arabizi that it has no definite spellings of words, spelling of the same word can vary from a person to the other, and many words can be ambiguous, depending on their context. For that reason, I manually annotated a dataset containing 17k transliterated word (there are duplicate words with different spellings), and used it to train a transformer to transliterate the competition dataset to Arabic. I later used that transliterated text to finetune a huggingface Arabic dialect bert model (`moha/arabert_c19`: [https://arxiv.org/abs/2105.03143](https://arxiv.org/abs/2105.03143)).
 
 I collected this dataset by scraping 30k Arabizi facebook comments, extracting the most common words and then annotating them manually with their Arabic counter part. 
 
-The dataset and the code is freely available on the github repo https://github.com/maroxtn/tun-sentiment. I invite you to read the code, it is fully modular and carefully documented.
+The dataset and the code is freely available on the github repo [https://github.com/maroxtn/tun-sentiment](https://github.com/maroxtn/tun-sentiment). I invite you to read the code, it is fully modular and carefully documented.
 
-Here also I create a colab notebook in which you can test the sentiment analysis model with your own personal Tunisian Arabizi sentences (unless you are not Tunisian of course): https://colab.research.google.com/drive/1kTdHap1RmGdyTnDqAyfExJEguzMuCXh9
+Here also I create a colab notebook in which you can test the sentiment analysis model with your own personal Tunisian Arabizi sentences (unless you are not Tunisian of course): [https://colab.research.google.com/drive/1kTdHap1RmGdyTnDqAyfExJEguzMuCXh9](https://colab.research.google.com/drive/1kTdHap1RmGdyTnDqAyfExJEguzMuCXh9).
 
 ## **Predictive sales dashboard**
 I created and deployed an LSTM deep learning model in a real-time dashboard that computes sales prediction for a list of +160 products. This was during the course of an internship as a data scientist. I used Tensorflow to train the model, and Flask to deploy it. All the code is available [here](https://github.com/maroxtn/forecast-dashboard).
