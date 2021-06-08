@@ -3,6 +3,26 @@
 # Abdessalem Boukil Data Science Portfolio
 This is a list of work that I have done in the field of data science and deep learning. It includes competitions that I've participated in, personal projects, guides and notebooks. This list will updated constantly.
 
+## **Solo silver medal (2%) in a kaggle competition**
+I was ranked the 39th out of 3345 competitor (2%) that won me a silver medal. The competition is a featured competition targeting the knowledge tracing problem, i.e. estimating if a student would answer a question right or wrong based on their history. For my solution, I used an ensemble of an LGBM and SAINT transformer model, which you can find their respective sources, [here](https://github.com/maroxtn/LGBM-riiid-kaggle) and [here](https://github.com/maroxtn/SAINT-Transformer-riiid-kaggle).
+
+![rank](image/rank.PNG)
+
+## **#1st Place Zindi competition**
+
+Ranked the 1st in Zindi Tunisian Arabizi sentiment analysis competition from the bulk of 752 other competitors. Arabizi is Arabic that is written in latin letters and numbers, for example:
+
+- "قداه الوقت" becomes: <i>"9adeh lwa9t"</i> ?
+- "خليه يتعدا" becomes: <i>"5alih yet3adda"</i> ? ...
+
+One problem with Arabizi that it has no definite spellings of words, spelling of the same word can vary from a person to the other, and many words can be ambiguous, depnding on their context. For that reason, I manually annotated a dataset containing 17k transliterated word (there are duplicate words with different spellings), and used it to train a transformer to transliterate the competition dataset to Arabic. I later used that transliterated text to finetune a huggingface Arabic dialect transformer.
+
+I collected this dataset by scraping 30k Arabizi facebook comments, extracting the most common words and then annotating them manually with their Arabic counter part. 
+
+The dataset and the code is freely available on the github repo https://github.com/maroxtn/tun-sentiment. I invite you to read the code, it is fully modular and carefully documented.
+
+Here also I create a colab notebook in which you can test the sentiment analysis model with your own personal Tunisian Arabizi sentences (unless you are not Tunisian of course): https://colab.research.google.com/drive/1kTdHap1RmGdyTnDqAyfExJEguzMuCXh9
+
 ## **Predictive sales dashboard**
 I created and deployed an LSTM deep learning model in a real-time dashboard that computes sales prediction for a list of +160 products. This was during the course of an internship as a data scientist. I used Tensorflow to train the model, and Flask to deploy it. All the code is available [here](https://github.com/maroxtn/forecast-dashboard).
 
@@ -11,10 +31,6 @@ In order to get the utmost accuracy, I used Scikit Optimize to optimize the hype
 
 ![dashboard](image/dashboard.png)
 
-## **Solo silver medal (2%) in a kaggle competition**
-I was ranked the 39th out of 3345 competitor (2%) that won me a silver medal. The competition is a featured competition targeting the knowledge tracing problem, i.e. estimating if a student would answer a question right or wrong based on their history. For my solution, I used an ensemble of an LGBM and SAINT transformer model, which you can find their respective sources, [here](https://github.com/maroxtn/LGBM-riiid-kaggle) and [here](https://github.com/maroxtn/SAINT-Transformer-riiid-kaggle).
-
-![rank](image/rank.PNG)
 ## **Attention types comparison**
 The goal behind this project was to compare between [RNN using Bahdanau attention](https://arxiv.org/abs/1409.0473) translation, and Transformer translation, in terms of attention weights and translation quality. Both models had only one layer, similar in network size, training data, and number of epochs. The code is available [here](https://github.com/maroxtn/Transformer-vs-bahdanau-attention). The code is fully reproducible.
 
