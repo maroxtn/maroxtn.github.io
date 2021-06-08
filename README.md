@@ -15,7 +15,7 @@ Ranked the 1st in Zindi Tunisian Arabizi sentiment analysis competition from the
 - "قداه الوقت" becomes: <i>"9adeh lwa9t"</i> ?
 - "خليه يتعدا" becomes: <i>"5alih yet3adda"</i> ? ...
 
-One problem with Arabizi that it has no definite spellings of words, spelling of the same word can vary from a person to the other, and many words can be ambiguous, depnding on their context. For that reason, I manually annotated a dataset containing 17k transliterated word (there are duplicate words with different spellings), and used it to train a transformer to transliterate the competition dataset to Arabic. I later used that transliterated text to finetune a huggingface Arabic dialect transformer.
+One problem with Arabizi that it has no definite spellings of words, spelling of the same word can vary from a person to the other, and many words can be ambiguous, depending on their context. For that reason, I manually annotated a dataset containing 17k transliterated word (there are duplicate words with different spellings), and used it to train a transformer to transliterate the competition dataset to Arabic. I later used that transliterated text to finetune a huggingface Arabic dialect bert model (`moha/arabert_c19`: https://arxiv.org/abs/2105.03143).
 
 I collected this dataset by scraping 30k Arabizi facebook comments, extracting the most common words and then annotating them manually with their Arabic counter part. 
 
